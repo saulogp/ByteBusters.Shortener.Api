@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ByteBusters.Shortener.Api.props" />
+</Project>
