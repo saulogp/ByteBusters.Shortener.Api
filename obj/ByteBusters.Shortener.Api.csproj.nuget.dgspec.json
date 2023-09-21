@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/saulo/dev/ByteBusters/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj": {}
+    "/home/saulo/dev/hub/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj": {}
   },
   "projects": {
-    "/home/saulo/dev/ByteBusters/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj": {
+    "/home/saulo/dev/hub/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saulo/dev/ByteBusters/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj",
+        "projectUniqueName": "/home/saulo/dev/hub/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj",
         "projectName": "ByteBusters.Shortener.Api",
-        "projectPath": "/home/saulo/dev/ByteBusters/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj",
+        "projectPath": "/home/saulo/dev/hub/ByteBusters.Shortener.Api/ByteBusters.Shortener.Api.csproj",
         "packagesPath": "/home/saulo/.nuget/packages/",
-        "outputPath": "/home/saulo/dev/ByteBusters/ByteBusters.Shortener.Api/obj/",
+        "outputPath": "/home/saulo/dev/hub/ByteBusters.Shortener.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/saulo/.nuget/NuGet/NuGet.Config"
