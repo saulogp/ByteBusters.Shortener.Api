@@ -3,7 +3,7 @@ using System.Text;
 namespace Core;
 public static class ShortenerExtensions
 {
-    static Random random = new Random();
+    static readonly Random random = new();
     public static string GenerateRandomCode(int length)
     {
         const string characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

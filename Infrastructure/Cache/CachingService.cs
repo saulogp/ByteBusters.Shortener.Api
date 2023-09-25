@@ -5,11 +5,13 @@ public class CachingService : ICachingService
 {
     private readonly IDistributedCache _cache;
     private readonly DistributedCacheEntryOptions _options;
+    private readonly IConfiguration _configuration;
+
     public CachingService(IDistributedCache cache)
     {
         _cache = cache;
         _options = new DistributedCacheEntryOptions {
-            AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(3600),
+            AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(int.Parse(_configuration?["ExpirationDate"]??"24")),
             SlidingExpiration = TimeSpan.FromSeconds(1200)
         };
     }

@@ -1,2 +1,2 @@
 namespace Model.Response;
-public record CreateShortlinkResponse(string Code);
+public record CreateShortlinkResponse(string Code, DateTime ExpirationDateUtc);
